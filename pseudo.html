@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            color: blue;
+            background-color: seagreen;
+            font-size: 50px;
+        }
+
+        .middle-person:focus {
+            color: brown;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        /* li {
+            color: chocolate;
+        }*/
+        li:first-child {
+            color: blueviolet;
+        }
+
+        li:nth-child(2n) {
+            color: rgb(224, 13, 13);
+        }
+
+        li:nth-child(2n+1) {
+            background-color: rgb(45, 13, 224);
+        }
+
+        h3::before {
+            content: 'hello ';
+        }
+
+        h3::after {
+            content: ' bye';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+    <a target="_blank" href="https://www.google.com/">Go to google</a>
+    <br>
+    <a target="_blank" href="https://web.programming-hero.com/">Go to programming-hero</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>Shakib</li>
+        <li>Tamim</li>
+        <li>Somuya</li>
+        <li>Mashrafe</li>
+        <li>Mushfiq</li>
+        <li>Mahmudullha</li>
+
+    </ul>
+
+</body>
+
+</html>
